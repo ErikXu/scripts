@@ -1,3 +1,4 @@
+#私有源
 rm -rf /root/.config/pip/pip.conf
 pip config set global.index-url https://{your domain}/simple
 
