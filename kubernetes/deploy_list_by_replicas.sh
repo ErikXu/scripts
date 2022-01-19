@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Example
+# bash deploy_list_by_replicas.sh 1 default
+# bash deploy_list_by_replicas.sh 5 default
+
 CONDITION=${1}
 NAMESPACE=${2-default}
 
